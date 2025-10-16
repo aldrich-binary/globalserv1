@@ -26,11 +26,13 @@ export const HeroSection = () => {
           <div className="w-full md:w-1/2 xl:flex-1 p-8 xl:p-12">
             <div className="xl:max-w-2xl">
               <h1 className="animate__animated animate__fadeInRight mb-7 text-6xl md:text-7xl xl:text-7xl font-bold tracking-tight leading-none">
-                Asesoría integral: Derecho, Economía y Política para la gestión.
+                Asesoría integral en Ciencias Sociales: Derecho, Economía y
+                Política
               </h1>
               <p className="mb-9 animate__animated animate__fadeInUp animate__delay-1s text-lg text-gray-900 font-medium md:max-w-md">
-                En GlobalServ somos su despacho boutique especializado en
-                gestión y transición gubernamental.
+                Despacho boutique especializado en servicios contables,
+                financieros, administrativos, fiscales, legales, económicos y
+                políticos para el desarrollo del país.
               </p>
               <div className="mb-16 p-1.5 xl:pl-7 inline-block md:max-w-xl w-full  rounded-3xl ">
                 <div className="animate__animated animate__fadeInUp animate__delay-2s flex flex-wrap items-center gap-3 ">

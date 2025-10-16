@@ -4,7 +4,7 @@ import { FooterSection } from "../components/FooterSection";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, MapPin, Phone, Pin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -34,8 +34,8 @@ export default function ContactPage() {
               Contáctanos
             </h1>
             <p className="animate__animated animate__fadeInUp animate__delay-1s text-xl md:text-2xl text-blue-100 font-medium max-w-2xl mx-auto">
-              Estamos aquí para brindarle la mejor asesoría jurídica, económica
-              y política para su proyecto
+              Estamos aquí para brindarle la mejor asesoría integral en Ciencias
+              Sociales: Derecho, Economía y Política para su proyecto
             </p>
           </div>
         </div>
@@ -97,9 +97,9 @@ export default function ContactPage() {
                           Dirección
                         </h4>
                         <p className="text-lg font-bold text-gray-900">
-                          Av. Reforma 123, Col. Centro
+                          Av. Prado Bur 146, Col. Lomas de Chapuline
                           <br />
-                          Ciudad de México, 06000
+                          Ciudad de México, 11000
                         </p>
                       </div>
                     </div>
@@ -225,9 +225,15 @@ export default function ContactPage() {
                       </label>
                       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         {[
-                          { id: "legal", label: "Asesoría Jurídica" },
-                          { id: "economic", label: "Consultoría Económica" },
-                          { id: "political", label: "Gestión Política" },
+                          { id: "legal", label: "Consultoría Gubernamental" },
+                          {
+                            id: "economic",
+                            label: "Auditoría Legal y Financiera",
+                          },
+                          {
+                            id: "political",
+                            label: "Transición Gubernamental",
+                          },
                         ].map((area) => (
                           <label
                             key={area.id}

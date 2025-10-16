@@ -1,17 +1,18 @@
 export const StatsSection = () => {
   return (
-    <section className="py-24 bg-primary overflow-hidden">
+    <section id="estadisticas" className="py-24 bg-primary overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -m-8">
           <div className="w-full md:w-1/2 lg:w-1/3 p-8">
             <div className="xl:pt-12">
               <h2 className="mb-7 text-6xl md:text-7xl text-white font-bold tracking-tight leading-tight">
-                Confianza legal desde 2014
+                Experiencia en Transición Gubernamental
               </h2>
               <p className="text-white text-opacity-80">
-                Acompañamos a empresas y particulares con estrategia jurídica,
-                confidencialidad y resultados comprobables en litigio y
-                consultoría.
+                Hemos participado en procesos de transición gubernamental en los
+                gobiernos estatales de Puebla y Tamaulipas, brindando asesoría
+                integral en áreas estratégicas y prioritarias para el desarrollo
+                del país.
               </p>
             </div>
           </div>
@@ -34,11 +35,12 @@ export const StatsSection = () => {
                 <div className="w-full p-10">
                   <div className="md:max-w-sm">
                     <h3 className="mb-5 text-2xl text-white font-bold leading-snug">
-                      Defensa estratégica
+                      Metodologías Especializadas
                     </h3>
                     <p className="text-white text-opacity-70 font-medium leading-relaxed">
-                      Diseñamos la mejor ruta legal para tu caso: análisis de
-                      riesgos, negociación y litigio con enfoque en resultados.
+                      Establecemos metodologías para que los documentos,
+                      formatos y su contenido cumplan con los requisitos
+                      normativos en procesos de transición gubernamental.
                     </p>
                   </div>
                 </div>
@@ -48,11 +50,12 @@ export const StatsSection = () => {
                 <div className="w-full p-10">
                   <div className="md:max-w-sm">
                     <h3 className="mb-5 text-2xl text-white font-bold leading-snug">
-                      Atención 24/7
+                      Diagnóstico Situacional
                     </h3>
                     <p className="text-white text-opacity-70 font-medium leading-relaxed">
-                      Respuesta inmediata para medidas cautelares, urgencias y
-                      consultas prioritarias cuando más lo necesitas.
+                      Permite a los servidores tener un diagnóstico situacional
+                      de legalidad de la gestión del Gobierno del Estado, sus
+                      Secretarías y Entidades Paraestatales.
                     </p>
                   </div>
                 </div>

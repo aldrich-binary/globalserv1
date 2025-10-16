@@ -34,16 +34,16 @@ export const Navbar = ({ sideBar = false }: Props) => {
               <div className="w-auto hidden lg:block">
                 <ul className="flex items-center mr-16">
                   <li className="mr-9 font-medium hover:text-gray-700">
-                    <a href="#">Estadisticas</a>
+                    <a href="#estadisticas">Estadísticas</a>
                   </li>
                   <li className="mr-9 font-medium hover:text-gray-700">
-                    <a href="#">Soluciones</a>
+                    <a href="#servicios">Servicios</a>
                   </li>
                   <li className="mr-9 font-medium hover:text-gray-700">
-                    <a href="#">Servicios</a>
+                    <a href="#testimonios">Testimonios</a>
                   </li>
                   <li className="font-medium hover:text-gray-700">
-                    <a href="#">Testimonios</a>
+                    <a href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -107,22 +107,22 @@ export const Navbar = ({ sideBar = false }: Props) => {
                   <ul>
                     <li className="mb-12">
                       <Button className="w-full" asChild variant={"link"}>
-                        <Link href="/">Features</Link>
+                        <Link href="#estadisticas">Estadísticas</Link>
                       </Button>
                     </li>
                     <li className="mb-12">
                       <Button className="w-full" asChild variant={"link"}>
-                        <Link href="/">Features</Link>
+                        <Link href="#servicios">Servicios</Link>
                       </Button>
                     </li>
                     <li className="mb-12">
                       <Button className="w-full" asChild variant={"link"}>
-                        <Link href="/">Features</Link>
+                        <Link href="#testimonios">Testimonios</Link>
                       </Button>
                     </li>
                     <li>
                       <Button className="w-full" asChild variant={"link"}>
-                        <Link href="/">Features</Link>
+                        <Link href="#contacto">Contacto</Link>
                       </Button>
                     </li>
                   </ul>
@@ -131,15 +131,16 @@ export const Navbar = ({ sideBar = false }: Props) => {
                   <div className="flex flex-wrap">
                     <div className="w-full mb-3">
                       <Button
-                        className="w-full coursor-pointer"
+                        className="w-full cursor-pointer"
                         variant="outline"
+                        asChild
                       >
-                        Servicios
+                        <Link href="#servicios">Servicios</Link>
                       </Button>
                     </div>
                     <div className="w-full cursor-pointer">
-                      <Button className="w-full" variant="outline">
-                        Contactanos
+                      <Button className="w-full" variant="outline" asChild>
+                        <Link href="/contact">Contáctanos</Link>
                       </Button>
                     </div>
                   </div>

@@ -13,7 +13,7 @@ export const VideoSection = () => {
 
       <div className="relative z-10 container px-4 mx-auto">
         <h2 className="mb-20 text-6xl md:text-7xl xl:text-8xl font-bold tracking-tight leading-none text-white">
-          Tranquilidad jurídica para tu negocio y patrimonio
+          Transición Gubernamental Efectiva y Transparente
         </h2>
         <div className="flex flex-wrap xl:items-center -m-8 xl:-m-10">
           <div className="w-full md:w-1/2 xl:w-auto p-8 xl:p-10">
@@ -25,30 +25,30 @@ export const VideoSection = () => {
             <div className="md:max-w-xl">
               <div className="mb-11 pb-32 border-b border-white border-opacity-30">
                 <h3 className="text-lg font-semibold md:max-w-lg text-white">
-                  Asesoría estratégica y representación litigiosa con enfoque
-                  preventivo y resultados medibles.
+                  Metodologías especializadas para procesos de entrega-recepción
+                  con enfoque en cumplimiento normativo y transparencia.
                 </h3>
               </div>
               <div className="flex flex-wrap -m-8">
                 <div className="w-auto md:w-1/2 p-8">
                   <div className="md:max-w-xs">
                     <h3 className="mb-4 text-lg text-white font-semibold">
-                      Respuesta inmediata 24/7
+                      Capacitación Especializada
                     </h3>
                     <p className="text-white text-opacity-90 font-medium">
-                      Canales de contacto urgentes para medidas cautelares y
-                      asesoría inmediata.
+                      Capacitamos a servidores públicos en las obligaciones de
+                      los procesos de entrega-recepción de cada dependencia.
                     </p>
                   </div>
                 </div>
                 <div className="w-auto md:w-1/2 p-8">
                   <div className="md:max-w-xs">
                     <h3 className="mb-4 text-lg text-white font-semibold">
-                      Transparencia y seguimiento
+                      Diagnóstico Situacional
                     </h3>
                     <p className="text-white text-opacity-90 font-medium">
-                      Actualizaciones del estado del caso, cronogramas y
-                      documentos en un solo lugar.
+                      Evaluación e implementación de recomendaciones para
+                      solucionar contingencias en la gestión gubernamental.
                     </p>
                   </div>
                 </div>

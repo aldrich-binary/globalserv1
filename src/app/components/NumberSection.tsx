@@ -5,25 +5,25 @@ export const NumberSection = () => {
         <div className="relative z-10 container px-4 mx-auto">
           <div className="mb-24 border-b border-white border-opacity-10">
             <h2 className="pb-24 text-6xl md:text-7xl xl:text-8xl text-white font-bold tracking-tight leading-none md:max-w-3xl">
-              Defiende tus derechos con nuestro equipo jurídico
+              Experiencia en Transición Gubernamental
             </h2>
           </div>
           <div className="flex flex-wrap -m-8">
             {[
               {
-                label: "Casos resueltos",
-                value: "1,200+",
-                desc: "Experiencia comprobada en litigio civil, mercantil y penal.",
+                label: "Gobiernos atendidos",
+                value: "2+",
+                desc: "Gobiernos estatales de Puebla y Tamaulipas en procesos de transición.",
               },
               {
                 label: "Años de experiencia",
-                value: "15+",
-                desc: "Un equipo de abogados con trayectoria en firmas y tribunales.",
+                value: "10+",
+                desc: "Especialización en transición gubernamental y desarrollo institucional.",
               },
               {
-                label: "Clientes atendidos",
-                value: "3,500+",
-                desc: "Asesoría legal integral para empresas y particulares.",
+                label: "Servicios integrales",
+                value: "7+",
+                desc: "Contables, financieros, administrativos, fiscales, legales, económicos y políticos.",
               },
             ].map((stat, idx) => (
               <div key={idx} className="w-full md:w-1/3 p-8">

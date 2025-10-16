@@ -5,38 +5,39 @@ export const FeatureSection = () => {
   const features = [
     {
       icon: Scale,
-      title: "Soluciones Legales y Financieras",
+      title: "Consultoría Gubernamental",
       description:
-        "Acceda a soluciones legales y financieras con visión estratégica.",
+        "Asesoría a Gobiernos Estatales y Municipales en proyectos de diseño institucional, análisis de transición y creación de procedimientos.",
       color: "from-blue-500 to-blue-700",
     },
     {
       icon: TrendingUp,
-      title: "Proyectos de Inversión",
+      title: "Auditoría Legal y Financiera",
       description:
-        "Estructure y optimice proyectos de inversión y obligaciones a largo plazo",
+        "Auditoría Legal a Fideicomisos y recursos públicos, con enfoque en el cumplimiento normativo y la transparencia.",
       color: "from-emerald-500 to-emerald-700",
     },
     {
       icon: Users,
-      title: "Gestión Pública",
+      title: "Transición Gubernamental",
       description:
-        "Aproveche nuestra experiencia en transición y gestión para el sector público.",
+        "Capacitación a servidores públicos en procesos de entrega-recepción y metodologías para cumplimiento normativo.",
       color: "from-amber-500 to-amber-700",
     },
   ];
 
   return (
-    <section className="py-24 bg-gray-50 overflow-hidden">
+    <section id="servicios" className="py-24 bg-gray-50 overflow-hidden">
       <div className="container px-4 mx-auto">
         {/* Header Section */}
         <div className="text-center mb-20">
           <h2 className="mb-6 text-5xl md:text-6xl font-bold tracking-tight leading-tight text-gray-900">
-            Nuestros Servicios
+            Nuestros Servicios Especializados
           </h2>
           <p className="text-xl text-gray-600 font-medium max-w-3xl mx-auto">
-            Ofrecemos servicios integrales de asesoría legal, financiera y
-            política para la gestión y transición gubernamental.
+            Despacho boutique con valor diferenciado en la funcionalidad de las
+            Ciencias Sociales (Derecho-Economía-Política), especializado en
+            transición gubernamental y servicios al sector público y privado.
           </p>
         </div>
 

@@ -1,38 +1,46 @@
-import { CallToAction } from "./CallToAction";
-
 export const FooterSection = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t-2">
+    <footer id="contacto" className="bg-white dark:bg-gray-900 border-t-2">
       <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-8 sm:px-6 lg:px-8 ">
         <div className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24 dark:border-gray-800">
-          <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
-            <li>
-              <a
-                href="#"
-                className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
-              >
-                Términos y Condiciones
-              </a>
-            </li>
+          <div className="text-center lg:text-right">
+            <p className="text-gray-500 text-sm mb-4">
+              <strong>GlobalServ VJ, S.C.</strong>
+              <br />
+              C.P. GUALBERTO ANTONIO VILCHIS PEREZ - REPRESENTANTE LEGAL
+              <br />
+              Av. Prado Bur 146, Col. Lomas de Chapuline, C. 11000, Ciudad de
+              México
+            </p>
+            <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                >
+                  Términos y Condiciones
+                </a>
+              </li>
 
-            <li>
-              <a
-                href="#"
-                className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
-              >
-                Aviso de Privacidad
-              </a>
-            </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                >
+                  Aviso de Privacidad
+                </a>
+              </li>
 
-            <li>
-              <a
-                href="#"
-                className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
-              >
-                Política de Cookies
-              </a>
-            </li>
-          </ul>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                >
+                  Política de Cookies
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
             {/* Los iconos de redes sociales (Facebook, Instagram, Twitter, etc.) se mantienen sin cambios */}
